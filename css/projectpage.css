@@ -1,0 +1,50 @@
+.card {
+  height: 300px;
+  overflow: hidden;
+  margin: 20px;
+  width: 90vw;
+  max-width: 800px;
+  display: flex;
+  padding: 10px 10px 10px;
+  gap: 20px;
+  background-color: white;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.card:hover {
+  box-shadow: rgb(205, 205, 205) 0px 0px 30px;
+
+  scale: 1.01;
+}
+.card-image-containner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.card-image {
+  height: 100%;
+  border-radius: 10px;
+}
+.card-details {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(220, 175, 16);
+}
+.card-title::after {
+  content: ".";
+  color: rgb(20, 200, 200);
+}
+.card-desc {
+  font-size: 18px;
+  font-weight: 300;
+  max-height: 49%;
+  overflow: hidden;
+}

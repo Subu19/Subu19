@@ -1,0 +1,52 @@
+.contact-card {
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+}
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 10px 10px 10px;
+}
+.contact-lists {
+  flex: 1;
+  border-left: solid black 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 10px;
+  gap: 20px;
+}
+.input {
+  height: 40px;
+  width: 300px;
+  outline: none;
+  border: none;
+  resize: vertical;
+  background-color: rgb(244, 244, 244);
+  border-bottom: solid black;
+}
+.contact-button {
+  margin-top: 20px;
+  width: 300px;
+}
+textarea {
+  min-height: 100px;
+}
+.c-list {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.c-list-icon {
+  font-size: 30px !important;
+}
+.c-list-name {
+  font-size: 18px;
+}

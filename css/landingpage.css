@@ -1,0 +1,96 @@
+.profileContainner {
+  display: flex;
+  height: 100%;
+}
+.profileRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.profile-prefix {
+  font-size: 40px;
+  font-weight: bold;
+}
+.profile-name {
+  font-size: 70px;
+  font-weight: bold;
+  background: linear-gradient(to right, #26d0e7 0%, #5d1398 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.resume {
+  font-weight: 300;
+  width: 50px;
+  border-bottom: solid;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.resume:hover {
+  color: #138298;
+  width: 100px;
+  border-bottom: solid;
+  transition: 0.2s;
+}
+.profile-desc {
+  max-width: 80%;
+}
+.profileLeft {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-containner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  width: 50%;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image-shadow {
+  height: 20px;
+  width: 70%;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #d3d3d3 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+.scrollDownContainner {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  max-height: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.scrollDownIcon {
+  color: rgb(194, 194, 194);
+  animation: scrollAnimation 2s infinite ease-out;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
