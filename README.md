@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **Email: subuacharya19@gmail.com, Discord: subuwastaken**
 
-- ⚡ Fun fact **I am not Gay**
+- ⚡ Fun fact **I am a guy**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
