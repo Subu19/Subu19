@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [GharSewa](https://github.com/Subu19/GharSewa)
 
-- 👨‍💻 All of my projects are available at [portfolio.subasacharya.com.np](portfolio.subasacharya.com.np)
+- 👨‍💻 All of my projects are available at [subasacharya.com.np](subasacharya.com.np)
 
 - 💬 Ask me about **React,Web Development, Node.js, JS, Discord.js**
 
